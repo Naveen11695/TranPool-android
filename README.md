@@ -1,5 +1,7 @@
-# TranPool
-Android Application 
+# TranPool<p align="left">
+<img src="https://lh4.googleusercontent.com/YC0wEk6SOBQaZ0_abRiKhopA2q2liKu9k5pW7_BDadeMrfga9mSFUCzq7NVMITyEohqQeLQTmJN1jK7WLrRL=w1919-h917" width="100" heigth="100" title="hover text"></p>               
+> Android Application
+
 
 
 
@@ -33,7 +35,7 @@ This application is developed for an Android platform with API support of v24. T
 
 > view weather information
 
-> track order status
+> track order status 
 
 > payment status
 
