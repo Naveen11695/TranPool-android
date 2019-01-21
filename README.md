@@ -21,7 +21,7 @@ Android Application
 
 ## About the Application
 
-This application is developed for an Android platform with API support of v25. This application includes the following features
+This application is developed for an Android platform with API support of v24. This application includes the following features
 
 >Registration/Login of Users(local entrepreneur/buyer/transpoter/Govt. officials)
 
