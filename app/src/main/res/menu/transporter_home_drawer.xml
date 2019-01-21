@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="@string/User_Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_Home"
+                android:icon="@drawable/home"
+                android:title="@string/Home" />
+            <item
+                android:id="@+id/Profile"
+                android:icon="@drawable/pesonal_detail"
+                android:title="@string/Profile" />
+            <item
+                android:id="@+id/change_pass"
+                android:icon="@android:drawable/ic_partial_secure"
+                android:title="@string/Change_Password" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/vehicle_detail">
+        <menu>
+
+            <item
+                android:id="@+id/vehicle_reg"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/vehicle_reg" />
+            <item
+                android:id="@+id/price"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/base_price" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="@string/update_status">
+        <menu>
+            <item
+                android:id="@+id/update_staus_transpoter"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/status_update" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/weather"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="@string/weather" />
+
+    <item android:title="@string/Communicate">
+        <menu>
+            <item
+                android:id="@+id/About_us"
+                android:icon="@android:drawable/ic_input_get"
+                android:title="@string/About_us" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@android:drawable/ic_input_get"
+                android:title="@string/feedback" />
+
+        </menu>
+    </item>
+    <item android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/change_lan"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/change_lang" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="@string/Log_out">
+        <menu>
+            <item
+                android:id="@+id/Log_out"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/Log_out" />
+        </menu>
+    </item>
+
+
+
+</menu>

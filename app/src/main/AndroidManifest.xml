@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="naveen.hackathon.hackathon">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/my_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forget_pass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".language"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".category"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".change_pass"
+            android:screenOrientation="portrait" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDdZsZqEWiQx1aPQHJwBIwM_bFnmhzA-4Q" />
+
+        <activity android:name=".MapActivity" />
+        <activity
+            android:name=".entrepreneur.entrepreneur_home"
+            android:label="@string/title_activity_entrepreneur_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Transporter.Transporter_home"
+            android:label="@string/title_activity_transporter_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".entrepreneur.entrepreneur_reg" />
+        <activity android:name=".Buyer_reg" />
+        <activity
+            android:name=".activities.ECartHomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+        </activity>
+
+        <!-- File provider -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="naveen.hackathon.hackathon"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <!-- Splash Activity -->
+
+        <activity android:name=".buyer_transport_price" />
+        <activity android:name=".entrepreneur.entrepreneur_tosell" />
+        <activity android:name=".feedback" />
+        <activity android:name=".Transporter.Transporter_reg" />
+        <activity android:name=".Transporter.VehicleRegistration" />
+        <activity android:name=".entrepreneur.product_description" />
+        <activity android:name=".location" />
+        <activity android:name=".Transporter.Transporter_update_status_Activity" />
+        <activity android:name=".entrepreneur.Delivery_deal_Activity" />
+        <activity android:name=".entrepreneur.Product_shipping_Activity" />
+        <activity android:name=".Transporter.WebActivity" />
+        <activity android:name=".entrepreneur.entrepreneur_group" />
+        <activity android:name=".About" />
+        <activity android:name=".payment_gateway" />
+        <activity android:name=".entrepreneur.weather" />
+        <activity android:name=".cancel_order" />
+        <activity android:name=".Transporter.camera"></activity>
+        <activity android:name=".reports_charts.chart_main"></activity>
+        <activity android:name=".reports_charts.charts.PieChartActivity" />
+        <activity android:name=".reports_charts.charts.LineChartActivity" />
+        <activity android:name=".reports_charts.charts.AreaChartActivity" />
+        <activity android:name=".reports_charts.charts.ColumnChartActivity" />
+        <activity android:name=".reports_charts.charts.linechart" />
+        <activity android:name=".central_govt.CentralGovernmentActivity" />
+        <activity android:name=".broker.Broker_Reg_Activity" />
+        <activity android:name=".entrepreneur.status"></activity>
+        <activity android:name=".StateGovernmentActivity"/>
+        <activity android:name=".reports_charts.charts.vehicle"/>
+    </application>
+
+</manifest>

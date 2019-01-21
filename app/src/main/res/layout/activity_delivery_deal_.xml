@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/registration_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.61"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="17dp"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center_horizontal"
+                android:text="Delivery Deal"
+                android:textColor="@android:color/background_light"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView7"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Transporter Name:"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView8"
+                android:layout_alignBottom="@+id/textView8"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Tamanpreet singh"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_below="@+id/textView8"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact no.:"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignStart="@+id/textView9"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="8596712459"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_below="@+id/textView11"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Permit:"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView13"
+                android:layout_alignBottom="@+id/textView13"
+                android:layout_alignStart="@+id/textView12"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="National"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView13"
+                android:layout_below="@+id/textView13"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Transport Name:"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView15"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Dump truck"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/deal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deal" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

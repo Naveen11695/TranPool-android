@@ -1,0 +1,393 @@
+<resources>
+
+    <!-- App space!-->
+
+    <!-- language space!-->
+    <string name="tap_text"> ಕೆಳಗಿನ ಯಾವುದೇ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ: </string>
+    <string name="btn_en"> ಇಂಗ್ಲಿಷ್ </string>
+    <string name="btn_hi"> ಹಿಂದಿ </string>
+    <string name="btn_ka"> ಕನ್ನಡ </string>
+    <string name="proceed"> ಮುಂದುವರೆಯಲು </string>
+    <!-- language space!-->
+
+
+    <!-- users space!-->
+    <string name="category_text"> ಕೆಳಗಿನ ನಿಮ್ಮ ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ: </string>
+    <string name="btn_buy"> ಖರೀದಿದಾರ </string>
+    <string name="btn_trans"> ಟ್ರಾನ್ಸ್ಪೋರ್ಟರ್ </string>
+    <string name="btn_far"> ವಾಣಿಜ್ಯೋದ್ಯಮಿ </string>
+    <!-- users space!-->
+
+    <!-- login space!-->
+    <string name="title_activity_login"> ಸೈನ್ ಇನ್ ಮಾಡಿ </string>
+    <string name="title_buyer"> ಖರೀದಿದಾರ </string>
+    <string name="title_trans"> ಟ್ರಾನ್ಸ್ಪೋರ್ಟರ್ </string>
+    <string name="title_farmer"> ವಾಣಿಜ್ಯೋದ್ಯಮಿ </string>
+    <string name="email"> ಇ-ಮೇಲ್ </string>
+    <string name="hint_password"> ಪಾಸ್ವರ್ಡ್ </string>
+    <string name="forget_header"> ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?</string>
+    <string name="change_header"> ಗುಪ್ತಪದವನ್ನು ಬದಲಿಸಿ?</string>
+    <string name="reg_login_header"> ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಲಾಗಿದೆ. ನನ್ನನ್ನು ಲಾಗಿನ್ ಮಾಡಿ!</string>
+    <string name="log_in_reg"> ಸದಸ್ಯರಲ್ಲವೇ? ಈಗ ನೋಂದಾಯಿಸಿ ಪಡೆಯಿರಿ!</string>
+    <string name="forget_detail"> ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸುವ ಸೂಚನೆಗಳನ್ನು ಕಳುಹಿಸಲು ನಮಗೆ ನಿಮ್ಮ ನೋಂದಾಯಿತ ಇಮೇಲ್ ಐಡಿ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="error_invalid_email"> ಈ ಇಮೇಲ್ ವಿಳಾಸವು ಅಮಾನ್ಯವಾಗಿದೆ </string>
+    <string name="error_invalid_password"> ಈ ಪಾಸ್ವರ್ಡ್ ತುಂಬಾ ಚಿಕ್ಕದಾಗಿದೆ </string>
+    <string name="error_incorrect_password"> ಈ ಪಾಸ್ವರ್ಡ್ ತಪ್ಪಾಗಿದೆ </string>
+    <string name="error_field_required"> ಈ ಜಾಗ ಬೇಕಾಗಿದೆ </string>
+    <string name="login"> ಲಾಗಿನ್ ಮಾಡಿ </string>
+    <string name="remember_me"> ನನ್ನನ್ನು ನೆನಪಿನಲ್ಲಿ ಇಡು </string>
+    <string name="permission_rationale">"ಇಮೇಲ್ ಅನ್ನು ಒದಗಿಸಲು ಸಂಪರ್ಕಗಳ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿದೆ
+         ಪೂರ್ಣಗೊಂಡಿದೆ. "</string>
+    <string name="login_message"> ನೀವು ನೋಂದಣಿಯಾಗಿಲ್ಲ!</string>
+    <string name="feedback"> ಪ್ರತಿಕ್ರಿಯೆ </string>
+
+
+    <!-- login space!-->
+
+
+    <!-- entrepreneur_reg space!-->
+    <string name="action_sign_in"> ಸೈನ್ ಅಪ್ ಮಾಡಿ ಅಥವಾ ನೋಂದಾಯಿಸಿ </string>
+    <string name="action_sign_in_short"> ಸೈನ್ ಅಪ್ </string>
+    <string name="title_activity_buyer_home"> ಖರೀದಿದಾರರು </string>
+    <string name="verfication_button"> ಮರುಕಳುಹಿಸಿ </string>
+    <string name="verfiy_message"> ನಿಮ್ಮ ಇಮೇಲ್-ಐಡಿ ಅನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ. ಪರಿಶೀಲನಾ ಮೇಲ್ ಅನ್ನು ನೋಂದಾಯಿತ ಇಮೇಲ್-ಐಡಿಗೆ ಮರು ಕಳುಹಿಸಲು ಮರುಕಳುಹಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ </string>
+    <string name="verfiy_message1">(ಪರಿಶೀಲಿಸಿಲ್ಲ)</string>
+    <string name="verfiy_message2">(ಪರಿಶೀಲಿಸಲಾಗಿದೆ)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    -------------------------------------------------------------------
+    <string name="back_button"> ಹಿಂದೆ </string>
+    <string name="Reset_password"> ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ </string>
+    <string name="action_settings"> ಸೆಟ್ಟಿಂಗ್ಗಳು </string>
+
+
+    <!-- entrepreneur_reg space!-->
+
+    <!--Menu space!-->
+    <string name="User_Profile"> ಬಳಕೆದಾರ ಪ್ರೊಫೈಲ್ </string>
+    <string name="Home"> ಮುಖಪುಟ </string>
+    <string name="Profile"> ಪ್ರೊಫೈಲ್ </string>
+    <string name="Change_Password"> ಗುಪ್ತಪದವನ್ನು ಬದಲಿಸಿ </string>
+    <string name="Booking_Order"> ಬುಕಿಂಗ್ ಆರ್ಡರ್ </string>
+    <string name="Book_Now"> ಈಗ ಆದೇಶಿಸು </string>
+    <string name="History"> ಇತಿಹಾಸ </string>
+    <string name="Past_Orders"> ಹಿಂದಿನ ಆರ್ಡರ್ಸ್ </string>
+    <string name="Communicate"> ಸಂವಹನ </string>
+    <string name="About_us"> ನಮ್ಮ ಬಗ್ಗೆ </string>
+    <string name="Log_out"> ಲಾಗ್ ಔಟ್ </string>
+    <string name="change_lang"> ಭಾಷೆ ಬದಲಾಯಿಸಿ </string>
+    <string name="price"> ಬೆಲೆ ನಿಗದಿ </string>
+    <string name="calculate"> ಲೆಕ್ಕ </string>
+    <string name="my_cart"> ನನ್ನ ಕಾರ್ಟ್ </string>
+    <string name="to_sell"> ಮಾರಲು </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="users">users1</string>
+
+    <!--Menu space!-->
+    <string-array name="users">
+        <item> ಖರೀದಿದಾರ </item>
+        <item> ಟ್ರಾನ್ಸ್ಪೋರ್ಟರ್ </item>
+        <item> ವಾಣಿಜ್ಯೋದ್ಯಮಿ </item>
+        <item>ನಿರ್ವಾಹಕರು</item>
+    </string-array>
+    <string-array name="android">android</string-array>
+
+
+    <!--pricing message!-->
+    <string name="price_title"> ಬೆಲೆ ಶೀರ್ಷಿಕೆ </string>
+    <string name="pricing_message_1"> 8:00 ರಿಂದ 8:00 ರವರೆಗೆ ಸುಳಿವುಗಳಿಗಾಗಿ 1.5x ದರ್ಜೆಯ ದರ ಅರ್ಜಿ ಸಲ್ಲಿಸುತ್ತದೆ \ n ನೈಟ್ ಹೋಲ್ಡಿಂಗ್ಗಳು Rs.800</string>
+    <string-array name="price_type">
+        <item> ಸಾರಿಗೆ ಸೇವೆ ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ಸ್ಥಳೀಯ ಸ್ಕೇಲ್ </item>
+        <item> ಗ್ಲೋಬಲ್ ಸ್ಕೇಲ್ </item>
+    </string-array>
+    <string-array name="city_array">
+        <item> ರಾಜ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ </item>
+        <item> ದೆಹಲಿ </item>
+        <item> ಬೆಂಗಳೂರು </item>
+        <item> ಹೈದರಾಬಾದ್ </item>
+    </string-array>
+    <string-array name="country_array">
+        <item> ರಾಷ್ಟ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ಚೀನಾ </item>
+        <item> ಜಪಾನ್ </item>
+        <item> ಶ್ರೀಲಂಕಾ </item>
+    </string-array>
+    <string-array name="mode_1">
+        <item> ಸಾರಿಗೆಗೆ ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ರಸ್ತೆ ಮೂಲಕ </item>
+        <item> ವಿಮಾನದಲ್ಲಿ </item>
+        <item> ರೈಲಿನಿಂದ </item>
+    </string-array>
+
+    <string-array name="mode_2">
+        <item> ಸಾರಿಗೆಗೆ ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ವಿಮಾನದಲ್ಲಿ </item>
+        <item> ವಾಟರ್ ಮೂಲಕ </item>
+    </string-array>
+    <string-array name="transport">
+        <item> ಸಾರಿಗೆ ಮಾಧ್ಯಮವನ್ನು ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ಸೈಕಲ್ ಮೂಲಕ ವಿತರಣೆ </item>
+        <item> ಬೈಕ್ ಮೂಲಕ ವಿತರಣೆ </item>
+        <item> ಕಾರ್ ಮೂಲಕ ವಿತರಣೆ </item>
+        <item> ಟ್ರಕ್ ಮೂಲಕ ವಿತರಣೆ </item>
+    </string-array>
+
+
+    <string name="base"> ಬೇಸ್ ಫೇರ್ </string>
+    <string name="hiretime"> ಬಾಡಿಗೆ ಸಮಯಗಳು </string>
+    <string name="km_charges"> ಕಿಮೀ ದರಗಳು </string>
+    <string-array name="helper_charges"> ಸಹಾಯಕ ಶುಲ್ಕಗಳು </string-array>
+    <string name="warehouse"> ವೇರ್ಹೌಸ್ ಶುಲ್ಕಗಳು </string>
+    <string name="helper"> ಸಹಾಯಕ ಶುಲ್ಕಗಳು </string>
+    <string name="helper_ground_floor"> ನೆಲಮಹಡಿ - ನೆಲಮಹಡಿ </string>
+    <string name="helper_first_floor"> ಮೊದಲ ಮಹಡಿ ಮತ್ತು ಮೇಲೆ </string>
+    <string name="title_activity_entrepreneur_home"> ವಾಣಿಜ್ಯೋದ್ಯಮಿ_ಮುಖಿ </string>
+    -------------------------------------------------------------
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    ----------------------------------------------------------------
+    <string name="title_activity_transporter_home">Transporter_home</string>
+    <!--pricing message!-->
+
+    <!-- App space!-->
+
+    <!--Entrepreneur    -->
+    <string-array name="business_type">
+        <item> ಏಕೈಕ ಪ್ರಾಪ್ರೈಟರ್ </item>
+        <item> ಪಾಲುದಾರಿಕೆ </item>
+        <item> ಕಂಪನಿ </item>
+        <item> ಉಪಸಂಸ್ಥೆ </item>
+        <item> ಸೀಮಿತ ಹೊಣೆಗಾರಿಕೆ </item>
+        <item> ವಿದ್ಯುತ್ ಸರಬರಾಜು ವ್ಯವಹಾರ &amp; ಲೈಟಿಂಗ್ ಉತ್ಪನ್ನಗಳು </item>
+        <item> ವಿದ್ಯುತ್ ಅನುಸ್ಥಾಪನೆ ಮತ್ತು ನಿರ್ವಹಣೆ </item>
+        <item> ಎಲೆಕ್ಟ್ರಿಕಲ್ ಸ್ವಿಚ್ಬೋರ್ಡ್ಗಳ ತಯಾರಕ </item>
+        <item> ಡಿಸೈನ್ / ಕನ್ಸಲ್ಟೆಂಟ್ಸ್ / ಗುತ್ತಿಗೆದಾರರು </item>
+        <item> ಉತ್ಪಾದನೆ </item>
+        <item> ಮನೆಮನೆ </item>
+        <item> ರೆಸ್ಟೋರೆಂಟ್ಗಳು / ಆಸ್ಪತ್ರೆ </item>
+        <item> ನಿರ್ಮಾಣ </item>
+        <item> ಇತರ ಗೂಡಿನೊಂದಿಗೆ ವ್ಯಾಪಾರ.</item>
+        <item> ಸೇವೆಗಳು / ಇತರರು </item>
+    </string-array>
+
+    <string name="entrepreneur_detail"> ವಾಣಿಜ್ಯೋದ್ಯಮಿ ವಿವರ </string>
+    <string name="company_name"> ಸಂಸ್ಥೆಯ ಹೆಸರು </string>
+    <string name="owner_name"> ಮಾಲೀಕರ ಹೆಸರು </string>
+    <string name="address"> ವಿಳಾಸ </string>
+    <string name="alt_address"> ಪರ್ಯಾಯ ವಿಳಾಸ </string>
+    <string name="phone"> ದೂರವಾಣಿ ಸಂಖ್ಯೆ.</string>
+    <string name="pan"> ಪ್ಯಾನ್ ಸಂಖ್ಯೆ.</string>
+    <string name="aadhar"> ಆಧಾರ್ ಸಂಖ್ಯೆ.</string>
+    <string name="gstin"> ಟಿನ್ ನಂ. / ಜಿಎಸ್ಟಿನ್ ಇಲ್ಲ.</string>
+    <string name="reg_id"> ನೋಂದಣಿ ID </string>
+    <string name="validity"> ಸಿಂಧುತ್ವ </string>
+    <string name="business"> ವ್ಯವಹಾರ ಪ್ರಕಾರ </string>
+    <string name="reg_button"> ನೋಂದಣಿ </string>
+
+    <!--Entrepreneur    -->
+
+
+    <!--buyer-->
+
+    <string name="agency_firm_name"> ಏಜೆನ್ಸಿ / ಸಂಸ್ಥೆಯ ಹೆಸರು </string>
+    <string name="buyer_detail"> ಖರೀದಿದಾರ ವಿವರ </string>
+    <string name="country"> ದೇಶ </string>
+    <string name="state"> ರಾಜ್ಯ </string>
+    <string name="phone_no"> ದೂರವಾಣಿ ಸಂಖ್ಯೆ.</string>
+    <string name="website_details"> ವೆಬ್ಸೈಟ್ ವಿವರಗಳು </string>
+    <string name="radio_government"> ಸರ್ಕಾರ </string>
+    <string name="radio_company"> ಕಂಪನಿ </string>
+    <string name="radio_individual"> ವೈಯಕ್ತಿಕ </string>
+    <string name="category"> ವರ್ಗ </string>
+
+    <!--buyer-->
+
+
+    <!--product-->
+    <string name="product_name"> ಉತ್ಪನ್ನ ವಿವರಣೆ </string>
+    <string-array name="PRODUCT_TYPE">
+
+        <item> ನಿಮ್ಮ ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ರಾ ಮೆಟೀರಿಯಲ್ </item>
+        <item> ಮುಖಪುಟ-ಮೇಡ್ ಐಟಂಗಳು </item>
+        <item> ಪೀಠೋಪಕರಣಗಳ ಐಟಂಗಳು </item>
+        <item> ಆಹಾರ ವಸ್ತುಗಳು </item>
+
+    </string-array>
+    <string name="group"> ಗುಂಪು ಸೇರಿ </string>
+
+    <string name="raw_material"> ಕಚ್ಚಾ ವಸ್ತು </string>
+    <string name="quality"> ಗುಣಮಟ್ಟ </string>
+    <string-array name="quality">
+        <item> ಎ </item>
+        <item> ಬಿ </item>
+        <item> ಸಿ </item>
+    </string-array>
+    <string-array name="transport_type">
+        <item> ಸಾರಿಗೆ ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ಸೈಕಲ್ </item>
+        <item> ಕಾರು </item>
+        <item> ಬೈಕ್ </item>
+        <item> ಟ್ರಕ್ </item>
+    </string-array>
+
+    <string-array name="transport_type1">
+        <item> ಸಾರಿಗೆ ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ಕಾರು </item>
+        <item> ಟ್ರ್ಯಾಕ್ಟರ್ </item>
+        <item> ಬೈಕ್ </item>
+        <item> ಟ್ರಕ್ </item>
+    </string-array>
+
+    <string-array name="transport_type2">
+        <item> ಸಾರಿಗೆ ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ಕಾರ್ಗೋ ಪ್ಲೇನ್ </item>
+        <item> ಸರಕು ಹಡಗು </item>
+    </string-array>
+
+    <string name="quantity"> ಪ್ರಮಾಣ </string>
+    <string name="cost"> ವೆಚ್ಚ </string>
+    <string name="distance"> ದೂರ (ಅಂಗಡಿ ಹತ್ತಿರ </string>
+    <string name="trans_use"> ಸಾರಿಗೆ ಬಳಸಲಾಗುತ್ತದೆ </string>
+    <string name="trans_cost"> ಸಾರಿಗೆ ವೆಚ್ಚ </string>
+    <string name="pre_cost"> ಪ್ರಕ್ರಿಯೆ ವೆಚ್ಚ </string>
+    <string name="pre_process_cost">Pre-processing cost</string>
+    <string name="submit">Submit</string>
+    <string name="pre_cost_total"> ಪೂರ್ವ ಸಂಸ್ಕರಣಾ ವೆಚ್ಚ </string>
+    <string name="packaging_cost"> ಪ್ಯಾಕೇಜಿಂಗ್ ವೆಚ್ಚ </string>
+    <string name="post_processing_cost"> ಪೋಸ್ಟ್ ಪ್ರಕ್ರಿಯೆ ವೆಚ್ಚ </string>
+    <string name="exp_base_price"> ನಿರೀಕ್ಷಿತ ಮೂಲ ಬೆಲೆ </string>
+    <string name="margin"> ಲಾಭಾಂಶ </string>
+    <string name="total_cost"> ಒಟ್ಟು ವೆಚ್ಚ </string>
+    <string name="total_price"> ಒಟ್ಟು ಬೆಲೆ </string>
+    <string name="base_price"> ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಬೇಸ್ ಬೆಲೆ </string>
+
+    <!--feedback-->
+
+    <string name="mail_feedback_email">researchersdexterous@gmail.com</string>
+
+    <string name="mail_feedback_subject"> ಆಂಡ್ರಾಯ್ಡ್ ಅಪ್ಲಿಕೇಶನ್ನಿಂದ ಪ್ರತಿಕ್ರಿಯೆ.</string>
+    <string name="mail_feedback_message"> ಹಾಯ್,
+\n\nನಿಮ್ಮ ಅನಿಸಿಕೆ ! \n\n ನಾನು ನಿಮಗೆ ಕೆಲವು ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ನೀಡಲು ಬಯಸುತ್ತೇನೆ:</string>
+    <string name="mail_share_subject"> ಡೆಕ್ಸ್ಟೆರಿಯಸ್ ಸಂಶೋಧಕರು ಆಂಡ್ರಾಯ್ಡ್ ಅಪ್ಲಿಕೇಶನ್.</string>
+
+    <!--feedback-->
+
+
+    <string name="transporter_name"> ಟ್ರಾನ್ಸ್ಪೋರ್ಟರ್ ಹೆಸರು </string>
+    <string name="vehicle_name"> ವಾಹನ ಹೆಸರು </string>
+    <string name="vehicle_type"> ವಾಹನ ಪ್ರಕಾರ </string>
+    <string name="permit_number"> ಅನುಮತಿ ಸಂಖ್ಯೆ </string>
+    <string name="vehicle_number"> ವಾಹನ ಸಂಖ್ಯೆ </string>
+    <string name="vehicle_detail"> ವಾಹನ ವಿವರ </string>
+    <string name="yes"> ಹೌದು </string>
+    <string name="no"> ಇಲ್ಲ </string>
+    <string name="tax_no"> ತೆರಿಗೆ ಸಂಖ್ಯೆ.</string>
+    <string name="max_capacity"> ಗರಿಷ್ಠ ಸಾಮರ್ಥ್ಯ </string>
+    <string name="non_perishable"> ನಾಶವಾಗದವಲ್ಲದ </string>
+    <string name="perishable"> ಹಾನಿಕಾರಕ </string>
+    <string name="have_ac"> ಎಸಿ ಹ್ಯಾವ್ </string>
+    <string name="transporter_detail"> ಟ್ರಾನ್ಸ್ಪೋರ್ಟರ್ ವಿವರ </string>
+    <string name="vehicle_reg"> ವಾಹನ ನೋಂದಣಿ </string>
+
+
+    <string-array name="transporter_type">
+        <item> ವೈಯಕ್ತಿಕ </item>
+        <item> ಪಾಲುದಾರಿಕೆ </item>
+        <item> ಸೀಮಿತವಾಗಿದೆ </item>
+    </string-array>
+
+    <string-array name="transportation_type">
+        <item> ಸ್ಥಳೀಯ </item>
+        <item> ರಾಷ್ಟ್ರೀಯ </item>
+        <item> ಪ್ರಾದೇಶಿಕ </item>
+        <item> ಜಾಗತಿಕ </item>
+    </string-array>
+
+    <string-array name="state">
+        <item> ರಾಜ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ </item>
+        <item> ಅಸ್ಸಾಂ </item>
+        <item> ಛತ್ತೀಸ್ಗಢ </item>
+        <item> ಗುಜರಾತ್ </item>
+        <item> ಹರಿಯಾಣ </item>
+        <item> ಹಿಮಾಚಲ </item>
+        <item> ಕರ್ನಾಟಕ </item>
+        <item> ಕೇರಳ </item>
+        <item> ಮಧ್ಯ ಪ್ರದೇಶ </item>
+        <item> ಮಹಾರಾಷ್ಟ್ರ </item>
+        <item> ಒಡಿಶಾ </item>
+        <item> ರಾಜಸ್ಥಾನ </item>
+        <item> ತಮಿಳುನಾಡು </item>
+        <item> ತೆಲಂಗಾಣ </item>
+        <item> ತ್ರಿಪುರ </item>
+        <item> ಉತ್ತರ ಪ್ರದೇಶ </item>
+        <item> ಪಶ್ಚಿಮ ಬಂಗಾಳ </item>
+    </string-array>
+
+    <string-array name="country">
+        <item> ಆಸ್ಟ್ರೇಲಿಯಾ </item>
+        <item> ಬಾಂಗ್ಲಾದೇಶ </item>
+        <item> ಕೆನಡಾ </item>
+        <item> ಚೀನಾ </item>
+        <item> ಜರ್ಮನಿ </item>
+        <item> ಭಾರತ </item>
+        <item> ಮಲೇಷಿಯಾ </item>
+        <item> ನೇಪಾಳ </item>
+        <item> ಪಾಕಿಸ್ತಾನ </item>
+
+    </string-array>
+
+
+    <string-array name="permit">
+        <item> ನಿಮ್ಮ ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ </item>
+        <item> ರಾಷ್ಟ್ರೀಯ </item>
+        <item> ಅಂತಾರಾಷ್ಟ್ರೀಯ </item>
+    </string-array>
+
+    <string name="drop_location"> ಸ್ಥಳವನ್ನು ಡ್ರಾಪ್ ಮಾಡಿ </string>
+    <string name="productname"> ಉತ್ಪನ್ನದ ಹೆಸರು </string>
+    <string name="short_des"> ಸಣ್ಣ ವಿವರಣೆ </string>
+    <string name="long_des"> ಉದ್ದ ವಿವರಣೆ </string>
+    <string name="discount"> ರಿಯಾಯಿತಿ </string>
+    <string name="selling_price"> ಮಾರಾಟ ಬೆಲೆ </string>
+    <string name="mrp"> ಬೆಲೆ </string>
+
+
+
+    <!--transporter-->
+    <string name="update_status"> ಸ್ಥಿತಿಯನ್ನು ನವೀಕರಿಸಿ </string>
+    <string name="status_update"> ಡೈಲಿ ಸ್ಥಿತಿ ಅಪ್ಡೇಟ್ </string>
+    <string name="start_location"> ಸ್ಥಳ ಪ್ರಾರಂಭಿಸಿ </string>
+    <string name="end_location"> ಸ್ಥಾನ ಅಂತ್ಯ </string>
+    <string name="route"> ಮಾರ್ಗ </string>
+    <string name="transport_name"> ಸಾರಿಗೆ ಹೆಸರು </string>
+    <string name="capacity"> ಸಾಮರ್ಥ್ಯ </string>
+    <string name="availability"> ಲಭ್ಯತೆ </string>
+    <string name="charge"> ಕಿಮೀ ಪ್ರತಿ ಚಾರ್ಜ್ </string>
+    <string name="current_order"> ಪ್ರಸ್ತುತ ಆದೇಶವನ್ನು ತೆಗೆದುಕೊಂಡಿದೆ </string>
+    <string name="perishable_yes"> ಹೌದು </string>
+    <string name="perishable_no"> ಇಲ್ಲ </string>
+
+
+
+    <!--entrepreneur-->
+    <string name="delivery_deal"> ವಿತರಣಾ ಒಪ್ಪಂದ </string>
+    <string name="buyer_name"> ಖರೀದಿದಾರನ ಹೆಸರು </string>
+    <string name="product_shipping"> ಉತ್ಪನ್ನ ಸಾಗಣೆ </string>
+    <string name="entrepreneur_id"> ವಾಣಿಜ್ಯೋದ್ಯಮಿ ID </string>
+    <string name="product_name_1"> ಉತ್ಪನ್ನದ ಹೆಸರು </string>
+    <string name="quantity_4"> ಪ್ರಮಾಣ </string>
+    <string name="pick_add"> ವಿಳಾಸವನ್ನು ಆರಿಸಿ </string>
+    <string name="drop_add"> ವಿಳಾಸವನ್ನು ಬಿಡಿ </string>
+    <string name="contact_no"> ಸಂಪರ್ಕ ಸಂಖ್ಯೆ </string>
+    <string name="transportation"> ಸಾರಿಗೆ </string>
+    <string name="estimate_delivery_time"> ಅಂದಾಜು ವಿತರಣಾ ಸಮಯ </string>
+    <string name="place_order"> ಆದೇಶವನ್ನು ಇರಿಸಿ </string>
+
+</resources>
+

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".entrepreneur.entrepreneur_tosell">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:text="@string/product_name"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/product_select"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/product_select">
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="vertical|horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/cast_intro_overlay_background_color">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center"
+                    android:text="@string/raw_material"
+                    android:textColor="@color/color_white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center"
+                    android:text="@string/quality"
+                    android:textColor="@color/color_white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center"
+                    android:text="@string/quantity"
+                    android:textColor="@color/color_white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center"
+                    android:text="@string/cost"
+                    android:textColor="@color/color_white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/cardview_shadow_start_color">
+
+                <EditText
+                    android:id="@+id/raw_1"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center"
+                    android:hint="@string/raw_material"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/qty_1"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_alignStart="@+id/qty2"
+                    android:layout_below="@+id/qty2" />
+
+                <EditText
+                    android:id="@+id/quantity_1"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+                <EditText
+                    android:id="@+id/cost_1"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty3"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/cardview_shadow_start_color">
+
+                <EditText
+                    android:id="@+id/raw_2"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty3"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:hint="@string/raw_material"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/qty2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView5" />
+
+                <EditText
+                    android:id="@+id/quantity_2"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/qty3"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+                <EditText
+                    android:id="@+id/cost_2"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/cardview_shadow_start_color">
+
+                <EditText
+                    android:id="@+id/raw_3"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView5"
+                    android:gravity="center"
+                    android:hint="@string/raw_material"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/qty3"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_alignStart="@+id/qty_1"
+                    android:layout_below="@+id/qty_1" />
+
+                <EditText
+                    android:id="@+id/quantity_3"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/qty3"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+                <EditText
+                    android:id="@+id/cost_3"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty3"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="150dp"
+                    android:gravity="center"
+                    android:text="@string/total_cost"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/total_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/cal_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@color/cast_intro_overlay_background_color"
+                android:text="@string/calculate"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/cast_intro_overlay_background_color">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center"
+                    android:text="@string/trans_use"
+                    android:textColor="@color/color_white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center"
+                    android:text="@string/distance"
+                    android:textColor="@color/color_white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/textView14"
+                    android:gravity="center"
+                    android:text="@string/trans_cost"
+                    android:textColor="@color/color_white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/cardview_shadow_start_color">
+
+                <Spinner
+                    android:id="@+id/trans_use"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_alignStart="@+id/qty_1"
+                    android:layout_below="@+id/qty_1"
+                    android:layout_marginStart="20dp" />
+
+                <EditText
+                    android:id="@+id/distance_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/qty3"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+                <TextView
+                    android:id="@+id/trans_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/textView5"
+                    android:gravity="center"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="150dp"
+                    android:gravity="center"
+                    android:text="@string/pre_cost_total"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/total_pre_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/cal_cost2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:background="@color/cast_intro_overlay_background_color"
+                android:text="@string/calculate"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/cast_intro_overlay_background_color">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/qty3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="@string/pre_cost"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/qty3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="@string/packaging_cost"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/qty3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="@string/post_processing_cost"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/cardview_shadow_start_color">
+
+                <EditText
+                    android:id="@+id/pre_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+                <EditText
+                    android:id="@+id/pack_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+                <TextView
+                    android:id="@+id/post_processing_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/cal_cost3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:background="@color/cast_intro_overlay_background_color"
+                android:text="@string/calculate"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:background="@color/cardview_shadow_start_color">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/qty3"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="@string/exp_base_price"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/exp_cost"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:hint="₹"
+                    android:inputType="number"
+                    android:paddingStart="10dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/cardview_shadow_start_color">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/qty3"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="@string/margin"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/margin"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="10 %"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/cardview_shadow_start_color">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty3"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="@string/total_price"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/total_price"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/qty_1"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/qty3"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/cal_cost4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:background="@color/cast_intro_overlay_background_color"
+                android:text="@string/calculate"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:background="@color/cast_intro_overlay_background_color"
+                android:text="@string/submit"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+</HorizontalScrollView>
+
+    </ScrollView>
+
+
+</RelativeLayout>

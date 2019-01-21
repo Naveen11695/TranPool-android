@@ -1,0 +1,3 @@
+include ':app', ':yweathergetter4', ':anychart'
+project(':yweathergetter4').projectDir = new File('yweathergetter4a')
+project(':anychart').projectDir = new File('anychar')

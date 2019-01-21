@@ -1,0 +1,390 @@
+<resources>
+    <string name="tap_text">नीचे दिए गए किसी भी भाषा का चयन करें :</string>
+    <string name="btn_en">अंग्रेज़ी</string>
+    <string name="btn_hi">हिंदी</string>
+    <string name="btn_ka">कन्नड़</string>
+    <string name="proceed">अगला</string>
+
+    <!-- language space!-->
+
+
+    <!-- users space!-->
+    <string name="category_text"> नीचे अपनी श्रेणी का चयन करें:</string>
+    <string name="btn_buy"> क्रेता </string>
+    <string name="btn_trans"> ट्रांसपोर्टर </string>
+    <string name="btn_far"> व्यवसायी </string>
+    <!-- users space!-->
+
+    <!-- login space!-->
+    <string name="title_activity_login"> साइन इन करें </string>
+    <string name="title_buyer"> क्रेता </string>
+    <string name="title_trans"> ट्रांसपोर्टर </string>
+    <string name="title_farmer"> व्यवसायी </string>
+    <string name="email"> ईमेल </string>
+    <string name="hint_password"> पारण शब्द </string>
+    <string name="forget_header"> पासवर्ड भूल गए?</string>
+    <string name="change_header"> पासवर्ड बदलें?</string>
+    <string name="reg_login_header"> पहले से पंजीकृत। मुझे लॉग इन करें!</string>
+    <string name="log_in_reg"> सदस्य नहीं है? अब पंजीकृत हो जाओ!</string>
+    <string name="forget_detail"> आपको पासवर्ड रीसेट निर्देश भेजने के लिए हमें बस आपके पंजीकृत ईमेल आईडी की आवश्यकता है।</string>
+    <string name="error_invalid_email"> यह ईमेल पता अमान्य है </string>
+    <string name="error_invalid_password"> यह पासवर्ड बहुत छोटा है </string>
+    <string name="error_incorrect_password"> यह पासवर्ड गलत है </string>
+    <string name="error_field_required"> यह फ़ील्ड आवश्यक है </string>
+    <string name="login"> लॉग इन करें </string>
+    <string name="remember_me"> मुझे याद रखना </string>
+    <string name="permission_rationale">"ईमेल प्रदान करने के लिए संपर्क अनुमतियां आवश्यक हैं
+         पूर्णता। "</string>
+    <string name="login_message"> आप पंजीकृत नहीं हैं!</string>
+    <string name="feedback"> प्रतिक्रिया </string>
+
+
+    <!-- login space!-->
+
+
+    <!-- entrepreneur_reg space!-->
+    <string name="action_sign_in"> साइन अप करें या रजिस्टर करें </string>
+    <string name="action_sign_in_short"> साइन अप करें </string>
+    <string name="title_activity_buyer_home">Buyer_home</string>
+    <string name="verfication_button"> पुन: भेजें </string>
+    <string name="verfiy_message"> आपका ईमेल-आईडी सत्यापित नहीं है। पंजीकृत ईमेल-आईडी को सत्यापन मेल भेजने के लिए फिर से भेजें पर क्लिक करें </string>
+    <string name="verfiy_message1">( प्रमाणित नहीं है)</string>
+    <string name="verfiy_message2">( सत्यापित)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="back_button"> वापस </string>
+    <string name="Reset_password"> पासवर्ड रीसेट </string>
+    <string name="action_settings"> सेटिंग्स </string>
+
+
+    <!-- entrepreneur_reg space!-->
+
+    <!--Menu space!-->
+    <string name="User_Profile"> उपयोगकर्ता प्रोफ़ाइल </string>
+    <string name="Home"> होम </string>
+    <string name="Profile"> प्रोफाइल </string>
+    <string name="Change_Password"> पासवर्ड बदलें </string>
+    <string name="Booking_Order"> बुकिंग आदेश </string>
+    <string name="Book_Now"> अब ऑर्डर दें </string>
+    <string name="History"> इतिहास </string>
+    <string name="Past_Orders"> पिछले आदेश </string>
+    <string name="Communicate"> संवाद </string>
+    <string name="About_us"> हमारे बारे में </string>
+    <string name="Log_out"> लोग आउट </string>
+    <string name="change_lang"> भाषा बदलो </string>
+    <string name="price"> मूल्य निर्धारण </string>
+    <string name="calculate"> गणना </string>
+    <string name="my_cart"> मेरी गाड़ी </string>
+    <string name="to_sell"> बेचना </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="users">users1</string>
+
+    <!--Menu space!-->
+    <string-array name="users">
+        <item> क्रेता </item>
+        <item> ट्रांसपोर्टर </item>
+        <item> व्यवसायी </item>
+        <item> प्रशासक</item>
+    </string-array>
+    <string-array name="android">android</string-array>
+
+
+    <!--pricing message!-->
+    <string name="price_title"> मूल्य शीर्षक </string>
+    <string name="pricing_message_1"> 1.5x की मानक दर 8:00 बजे से 8:00 बजे के बीच युक्तियों पर लागू होती है\n नाइट होल्डिंग्स का शुल्क रु .800 है</string>
+    <string-array name="price_type">
+        <item> परिवहन सेवा चुनें </item>
+        <item> स्थानीय स्केल </item>
+        <item> वैश्विक स्तर </item>
+    </string-array>
+    <string-array name="city_array">
+        <item> राज्य का चयन करें </item>
+        <item> दिल्ली </item>
+        <item> बैंगलोर </item>
+        <item> हैदराबाद </item>
+    </string-array>
+    <string-array name="country_array">
+        <item> देश चुनें </item>
+        <item> चीन </item>
+        <item> जापान </item>
+        <item> श्री लंका </item>
+    </string-array>
+    <string-array name="mode_1">
+        <item> परिवहन के लिए मोड का चयन करें </item>
+        <item> रास्ते से </item>
+        <item> हवाईजहाज से </item>
+        <item> ट्रेन से </item>
+    </string-array>
+
+    <string-array name="mode_2">
+        <item> परिवहन के लिए मोड का चयन करें </item>
+        <item> हवाईजहाज से </item>
+        <item> पानी से </item>
+    </string-array>
+    <string-array name="transport">
+        <item> परिवहन माध्यम का चयन करें </item>
+        <item> साइकिल के माध्यम से वितरण </item>
+        <item> बाइक के माध्यम से डिलिवरी </item>
+        <item> कार के माध्यम से वितरण </item>
+        <item> ट्रक के माध्यम से डिलिवरी </item>
+    </string-array>
+
+
+    <string name="base"> बुनियादी भाड़ा </string>
+    <string name="hiretime"> हिरे टाइम शुल्क </string>
+    <string name="km_charges"> किमी प्रभार </string>
+    <string-array name="helper_charges"> सहायक प्रभार </string-array>
+    <string name="warehouse"> गोदाम प्रभार </string>
+    <string name="helper"> सहायक प्रभार </string>
+    <string name="helper_ground_floor"> ग्राउंड फ्लोर – ग्राउंड फ्लोर </string>
+    <string name="helper_first_floor"> पहली मंजिल और ऊपर </string>
+    <string name="title_activity_entrepreneur_home">entrepreneur_home</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_activity_transporter_home">Transporter_home</string>
+    <!--pricing message!-->
+
+    <!-- App space!-->
+
+    <!--Entrepreneur    -->
+    <string-array name="business_type">
+        <item> एकमात्र स्वामी </item>
+        <item> साझेदारी </item>
+        <item> कंपनी </item>
+        <item> मताधिकार </item>
+        <item> सीमित दायित्व </item>
+        <item> विद्युत आपूर्ति के साथ व्यापार &amp; प्रकाश उत्पाद </item>
+        <item> विद्युत स्थापना और रखरखाव </item>
+        <item> इलेक्ट्रिकल स्विचबोर्ड के निर्माता </item>
+        <item> डिजाइनर / कंसल्टेंट्स / ठेकेदार </item>
+        <item> उत्पादन </item>
+        <item> गृहस्थी </item>
+        <item> रेस्टोरेंट्स / अस्पताल </item>
+        <item> निर्माण </item>
+        <item> अन्य सामान के साथ व्यापार</item>
+        <item> सेवा / दूसरों </item>
+    </string-array>
+
+    <string name="entrepreneur_detail"> उद्यमी विस्तार </string>
+    <string name="company_name"> कंपनी का नाम </string>
+    <string name="owner_name"> मालिक का नाम </string>
+    <string name="address"> पता </string>
+    <string name="alt_address">Alternative Address</string>
+    <string name="phone"> फोन नंबर</string>
+    <string name="pan"> पैन नंबर.</string>
+    <string name="aadhar"> आधार संख्या</string>
+    <string name="gstin"> टिन नं। / जीएसटीन नंबर</string>
+    <string name="reg_id"> पंजीयन पहचान </string>
+    <string name="validity"> वैधता </string>
+    <string name="business"> व्यापार के प्रकार </string>
+    <string name="reg_button"> रजिस्टर </string>
+
+    <!--Entrepreneur    -->
+
+
+    <!--buyer-->
+
+    <string name="agency_firm_name"> एजेंसी / फर्म का नाम </string>
+    <string name="buyer_detail"> क्रेता विस्तार </string>
+    <string name="country"> देश </string>
+    <string name="state"> राज्य </string>
+    <string name="phone_no"> फोन नंबर</string>
+    <string name="website_details"> वेबसाइट का विवरण </string>
+    <string name="radio_government"> सरकार </string>
+    <string name="radio_company"> कंपनी </string>
+    <string name="radio_individual"> व्यक्ति </string>
+    <string name="category"> वर्ग </string>
+
+    <!--buyer-->
+
+
+    <!--product-->
+    <string name="product_name"> उत्पाद वर्णन </string>
+    <string-array name="PRODUCT_TYPE">
+
+        <item> अपनी श्रेणी का चयन करें </item>
+        <item> कच्चा माल </item>
+        <item> घर से बने आइटम </item>
+        <item> फर्नीचर के आइटम </item>
+        <item> खाद्य वस्तुओं </item>
+
+    </string-array>
+    <string name="group"> समूह में शामिल </string>
+
+    <string name="raw_material"> कच्चा माल </string>
+    <string name="quality"> गुणवत्ता </string>
+    <string-array name="quality">
+        <item> ए </item>
+        <item> बी </item>
+        <item> सी </item>
+    </string-array>
+    <string-array name="transport_type">
+        <item> परिवहन चुनें </item>
+        <item> साइकिल </item>
+        <item> गाड़ी </item>
+        <item> बाइक </item>
+        <item> ट्रक </item>
+    </string-array>
+
+    <string-array name="transport_type1">
+        <item> परिवहन चुनें </item>
+        <item> गाड़ी </item>
+        <item>ट्रैक्टरr</item>
+        <item> बाइक </item>
+        <item> ट्रक </item>
+    </string-array>
+
+    <string-array name="transport_type2">
+        <item> परिवहन चुनें </item>
+        <item> कार्गो विमान </item>
+        <item> मालवाहक जहाज </item>
+    </string-array>
+
+    <string name="quantity"> मात्रा </string>
+    <string name="cost"> लागत </string>
+    <string name="distance"> दूरी (स्टोर से पास </string>
+    <string name="trans_use"> परिवहन इस्तेमाल किया </string>
+    <string name="trans_cost"> ढुलाई लागत </string>
+    <string name="pre_cost"> प्रसंस्करण लागत </string>
+    <string name="pre_process_cost"> पूर्व प्रसंस्करण लागत </string>
+    <string name="submit"> जमा करें </string>
+    <string name="pre_cost_total"> पूर्व प्रसंस्करण लागत </string>
+    <string name="packaging_cost"> पैकेजिंग लागत </string>
+    <string name="post_processing_cost"> पोस्ट प्रोसेसिंग कॉस्ट </string>
+    <string name="exp_base_price"> अपेक्षित बेस मूल्य </string>
+    <string name="margin"> मुनाफे का अंतर </string>
+    <string name="total_cost"> कुल लागत </string>
+    <string name="total_price"> कुल कीमत </string>
+    <string name="base_price"> मानक आधार मूल्य </string>
+
+    <!--feedback-->
+
+    <string name="mail_feedback_email">researchersdexterous@gmail.com</string>
+
+    <string name="mail_feedback_subject"> एंड्रॉइड ऐप से फीडबैक</string>
+    <string name="mail_feedback_message"> नमस्ते,
+\n\nआपकी प्रतिक्रिया ! \n\n मैं आपको कुछ प्रतिक्रिया देना चाहता हूं:</string>
+    <string name="mail_share_subject">Dexterous Researchers Android App.</string>
+
+    <!--feedback-->
+
+
+    <string name="transporter_name"> ट्रांसपोर्टर का नाम </string>
+    <string name="vehicle_name"> वाहन का नाम </string>
+    <string name="vehicle_type"> वाहन का प्रकार </string>
+    <string name="permit_number"> परमिट संख्या </string>
+    <string name="vehicle_number"> गाडी नंबर </string>
+    <string name="vehicle_detail"> वाहन विस्तार </string>
+    <string name="yes"> हाँ </string>
+    <string name="no"> नहीं </string>
+    <string name="tax_no"> टैक्स संख्या</string>
+    <string name="max_capacity"> अधिकतम क्षमता </string>
+    <string name="non_perishable"> गैर नाशहीन </string>
+    <string name="perishable"> नष्ट होनेवाला </string>
+    <string name="have_ac"> एसी लें </string>
+    <string name="transporter_detail"> ट्रांसपोर्टर विस्तार </string>
+    <string name="vehicle_reg"> वाहन पंजीकरण </string>
+
+
+    <string-array name="transporter_type">
+        <item> व्यक्ति </item>
+        <item> साझेदारी </item>
+        <item> सीमित </item>
+    </string-array>
+
+    <string-array name="transportation_type">
+        <item> स्थानीय </item>
+        <item> राष्ट्रीय </item>
+        <item> क्षेत्रीय </item>
+        <item> वैश्विक </item>
+    </string-array>
+
+    <string-array name="state">
+        <item> राज्य का चयन करें </item>
+        <item> असम </item>
+        <item> छत्तीसगढ़ </item>
+        <item> गुजरात </item>
+        <item> हरयाणा </item>
+        <item> हिमाचल </item>
+        <item> कर्नाटक </item>
+        <item> केरल </item>
+        <item> मध्य प्रदेश </item>
+        <item> महाराष्ट्र </item>
+        <item> ओडिशा </item>
+        <item> राजस्थान </item>
+        <item> तमिलनाडु </item>
+        <item> तेलंगाना </item>
+        <item> त्रिपुरा </item>
+        <item> उत्तर प्रदेश </item>
+        <item> पश्चिम बंगाल </item>
+    </string-array>
+
+    <string-array name="country">
+        <item> ऑस्ट्रेलिया </item>
+        <item> बांग्लादेश </item>
+        <item> कनाडा </item>
+        <item> चीन </item>
+        <item> जर्मनी </item>
+        <item> इंडिया </item>
+        <item> मलेशिया </item>
+        <item> नेपाल </item>
+        <item> पाकिस्तान </item>
+
+    </string-array>
+
+
+    <string-array name="permit">
+        <item> अपनी श्रेणी का चयन करें </item>
+        <item> राष्ट्रीय </item>
+        <item> अंतरराष्ट्रीय </item>
+    </string-array>
+
+    <string name="drop_location"> स्थान ड्रॉप करें </string>
+    <string name="productname"> उत्पाद का नाम </string>
+    <string name="short_des"> संक्षिप्त वर्णन </string>
+    <string name="long_des"> लंबा वर्णन </string>
+    <string name="discount"> छूट </string>
+    <string name="selling_price"> विक्रय मूल्य </string>
+    <string name="mrp"> मूल्य </string>
+
+
+
+    <!--transporter-->
+    <string name="update_status"> स्थिति अपडेट करें </string>
+    <string name="status_update"> दैनिक स्थिति अपडेट </string>
+    <string name="start_location"> प्रारंभ स्थान </string>
+    <string name="end_location"> अंतिम स्थान </string>
+    <string name="route"> मार्ग </string>
+    <string name="transport_name"> परिवहन का नाम </string>
+    <string name="capacity"> क्षमता </string>
+    <string name="availability"> उपलब्धता </string>
+    <string name="charge"> प्रति किमी प्रभार </string>
+    <string name="current_order"> वर्तमान आदेश लिया </string>
+    <string name="perishable_yes"> हाँ </string>
+    <string name="perishable_no"> नहीं </string>
+
+
+
+    <!--entrepreneur-->
+    <string name="delivery_deal"> डिलिवरी डील </string>
+    <string name="buyer_name"> खरीदार का नाम </string>
+    <string name="product_shipping"> उत्पाद शिपिंग </string>
+    <string name="entrepreneur_id"> उद्यमी आईडी </string>
+    <string name="product_name_1"> उत्पाद का नाम </string>
+    <string name="quantity_4"> मात्रा </string>
+    <string name="pick_add"> पता चुनें </string>
+    <string name="drop_add"> पता छोड़ दें </string>
+    <string name="contact_no"> संपर्क संख्या </string>
+    <string name="transportation"> परिवहन </string>
+    <string name="estimate_delivery_time"> अनुमान वितरण समय </string>
+    <string name="place_order"> आदेश देना </string>
+
+</resources>
+

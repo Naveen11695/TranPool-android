@@ -1,0 +1,461 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">TranPool</string>
+
+
+    <!-- Developer space!-->
+    <string name="title" translatable="false">Smart village hackathon</string>
+    <string name="developers_title" translatable="false">Developed By</string>
+    <string name="developers_name" translatable="false">Dexterous Researchers</string>
+
+    <!-- Developer space!-->
+
+    <!-- App space!-->
+
+    <!-- language space!-->
+    <string name="tap_text">Select any language below :</string>
+    <string name="btn_en">English</string>
+    <string name="btn_hi">Hindi</string>
+    <string name="btn_ka">Kannada</string>
+    <string name="proceed">Proceed</string>
+    <!-- language space!-->
+
+
+    <!-- users space!-->
+    <string name="category_text">Select your category below :</string>
+    <string name="btn_buy">Buyer</string>
+    <string name="btn_trans">Transporter</string>
+    <string name="btn_far">Entrepreneur</string>
+    <string name="btn_state" translatable="false">State Government</string>
+    <string name="btn_central" translatable="false">Central Government</string>
+    <!-- users space!-->
+
+    <!-- login space!-->
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_buyer">Buyer</string>
+    <string name="title_trans">Transporter</string>
+    <string name="title_farmer">Entrepreneur</string>
+    <string name="title_state" translatable="false">State Government</string>
+    <string name="title_central" translatable="false">Central Government</string>
+    <string name="email">E-mail</string>
+    <string name="hint_password">password</string>
+    <string name="forget_header">Forgot password?</string>
+    <string name="change_header">Change password?</string>
+    <string name="reg_login_header">Already registered. Login Me!</string>
+    <string name="log_in_reg">Not a member? Get registered now! </string>
+    <string name="forget_detail">we just need your registered Email Id to send you password reset instructions.</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="login">log in</string>
+    <string name="remember_me">Remember me</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login_message">You are not registered!</string>
+    <string name="feedback">Feedback</string>
+
+
+    <!-- login space!-->
+
+
+    <!-- entrepreneur_reg space!-->
+    <string name="action_sign_in">Sign up or register</string>
+    <string name="action_sign_in_short">Sign Up</string>
+    <string name="title_activity_buyer_home">Buyer_home</string>
+    <string name="verfication_button">Resend</string>
+    <string name="verfiy_message">Your email-id is not verified. Click on Resend to resend the verification mail to registered email-id</string>
+    <string name="verfiy_message1">(NOT VERIFIED)</string>
+    <string name="verfiy_message2">(VERIFIED)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="back_button">Back</string>
+    <string name="Reset_password">Reset password</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- entrepreneur_reg space!-->
+
+    <!--Menu space!-->
+    <string name="User_Profile">User Profile</string>
+    <string name="Home">Home</string>
+    <string name="Profile">Profile</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="Booking_Order">Booking Order</string>
+    <string name="Book_Now">Order Now</string>
+    <string name="History">History</string>
+    <string name="Past_Orders">Past Orders</string>
+    <string name="Communicate">Communicate</string>
+    <string name="About_us">About us</string>
+    <string name="Log_out">Log out</string>
+    <string name="change_lang">Change Language</string>
+    <string name="price">Pricing</string>
+    <string name="calculate">Calculate</string>
+    <string name="my_cart">My Cart</string>
+    <string name="to_sell">To Sell</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="users">users1</string>
+
+    <!--Menu space!-->
+    <string-array name="users">
+        <item>Buyer</item>
+        <item>Transporter</item>
+        <item>Entrepreneur</item>
+        <item>Administrator</item>
+    </string-array>
+    <!--<string-array name="android">android</string-array>-->
+
+
+    <!--pricing message!-->
+    <string name="price_title">Price Title</string>
+    <string name="pricing_message_1">Standard rate of 1.5x apply for tips between 8:00pm to 8:00am \n Night holdings charges Rs.800</string>
+    <string-array name="price_type">
+        <item>Select Transportation Service</item>
+        <item>Local Scale</item>
+        <item>Global Scale</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>Select the State</item>
+        <item>Delhi</item>
+        <item>Bangalore</item>
+        <item>Hyderabad</item>
+    </string-array>
+    <string-array name="country_array">
+        <item>Select the Country</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Sri Lanka</item>
+    </string-array>
+    <string-array name="mode_1">
+        <item>Select the Mode to transportation</item>
+        <item>By Road</item>
+        <item>By Air</item>
+        <item>By Train</item>
+    </string-array>
+
+    <string-array name="mode_2">
+        <item>Select the Mode to transportation</item>
+        <item>By Air</item>
+        <item>By Water</item>
+    </string-array>
+    <string-array name="transport">
+        <item>Select the transportation Medium</item>
+        <item>Delivery through Cycle</item>
+        <item>Delivery through Bike</item>
+        <item>Delivery through Car</item>
+        <item>Delivery through Truck</item>
+    </string-array>
+
+
+    <string name="base">Base Fare</string>
+    <string name="hiretime">Hiretime Charges</string>
+    <string name="km_charges">km charges</string>
+    <string-array name="helper_charges">Helper Charges</string-array>
+    <string name="warehouse">Warehouse Charges</string>
+    <string name="helper">Helper Charges</string>
+    <string name="helper_ground_floor">Ground Floor - Ground Floor</string>
+    <string name="helper_first_floor">First floor and above</string>
+    <string name="title_activity_entrepreneur_home">entrepreneur_home</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_transporter_home">Transporter_home</string>
+    <!--pricing message!-->
+
+    <!-- App space!-->
+
+    <!--Entrepreneur    -->
+    <string-array name="business_type">
+        <item>Sole Propritor</item>
+        <item>Partnership</item>
+        <item>Company</item>
+        <item>Franchise</item>
+        <item>Limited Liability</item>
+        <item>Trade with Electrical Supplies &amp; Lighting Products</item>
+        <item>Electrical Installation and Maintenance</item>
+        <item>Manufacturer of Electrical Switchboards</item>
+        <item>Designers/Consultants/Contractors</item>
+        <item>Production</item>
+        <item>Household</item>
+        <item>Restaurants/Hospital</item>
+        <item>Construction</item>
+        <item>Trade with other Goods.</item>
+        <item>Services/others</item>
+    </string-array>
+
+    <string name="entrepreneur_detail">Entrepreneur detail</string>
+    <string name="company_name">Company Name</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="address">Address</string>
+    <string name="alt_address">Alternative Address</string>
+    <string name="phone">Phone no.</string>
+    <string name="pan">Pan no.</string>
+    <string name="aadhar">Aadhar no.</string>
+    <string name="gstin">Tin no. / GSTin no.</string>
+    <string name="reg_id">Registration ID</string>
+    <string name="validity">validity</string>
+    <string name="business">Business Type</string>
+    <string name="reg_button">Register</string>
+
+    <!--Entrepreneur    -->
+
+
+    <!--buyer-->
+
+    <string name="agency_firm_name">Agency / Firm Name</string>
+    <string name="buyer_detail">Buyer Detail</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="website_details">Website Details</string>
+    <string name="radio_government">Government</string>
+    <string name="radio_company">Company</string>
+    <string name="radio_individual">Individual</string>
+    <string name="category">Category</string>
+
+    <string name="similar_product" translatable="false">Similar Product</string>
+    <string name="lab_locations" translatable="false">Lab Locations</string>
+    <string name="offer_banner" translatable="false">Offer Banner</string>
+    <string name="checkout" translatable="false">Checkout</string>
+
+    <!--buyer-->
+
+
+
+    <!--product-->
+    <string name="product_name">Product Description</string>
+    <string-array name="PRODUCT_TYPE">
+
+        <item>Select your category</item>
+        <item>Raw Material</item>
+        <item>Home-Made Items</item>
+        <item>Furniture Items</item>
+        <item>Food Items</item>
+
+    </string-array>
+    <string name="group">Join Group</string>
+
+    <string name="raw_material">Raw material</string>
+    <string name="quality">Quality</string>
+    <string-array name="quality">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="transport_type" tools:ignore="InconsistentArrays">
+        <item>Select Transport</item>
+        <item>Cycle</item>
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Truck</item>
+        <item>Bullock cart</item>
+        <item>Handcart</item>
+        <item>Meul</item>
+        <item>Donkeys</item>
+    </string-array>
+
+    <string-array name="transport_type1">
+        <item>Select Transport</item>
+        <item>Car</item>
+        <item>Tractor</item>
+        <item>Bike</item>
+        <item>Truck</item>
+    </string-array>
+
+    <string-array name="transport_type2">
+        <item>Select Transport</item>
+        <item>Cargo Plane</item>
+        <item>Cargo Ship</item>
+    </string-array>
+
+    <string name="quantity">Quantity</string>
+    <string name="cost">Cost</string>
+    <string name="distance">Distance (Near by store</string>
+    <string name="trans_use">Transportation used</string>
+    <string name="trans_cost">Transportation Cost</string>
+    <string name="pre_cost">Processing Cost</string>
+    <string name="pre_process_cost">Pre-processing cost</string>
+    <string name="submit">Submit</string>
+    <string name="pre_cost_total">Pre-processing cost</string>
+    <string name="packaging_cost">Packaging cost</string>
+    <string name="post_processing_cost">Post processing cost</string>
+    <string name="exp_base_price">Expected Base Price</string>
+    <string name="margin">Profit Margin</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="total_price">Total Price</string>
+    <string name="base_price">Standard Base Price</string>
+
+    <!--feedback-->
+    <string name="mail_feedback_email">researchersdexterous@gmail.com</string>
+    <string name="mail_feedback_subject">Feedback from android app.</string>
+    <string name="mail_feedback_message">Hi,
+\n\nYour Feedback ! \n\n I would like to give you some feedback:</string>
+    <string name="mail_share_subject">Dexterous Researchers Android App.</string>
+
+    <!--feedback-->
+
+
+    <string name="transporter_name">Transporter Name</string>
+    <string name="vehicle_name">Vehicle Name</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="permit_number">Permit Number</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="vehicle_detail">Vehicle Detail</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="tax_no">Tax no.</string>
+    <string name="max_capacity">Max Capacity</string>
+    <string name="non_perishable">Non Perishable</string>
+    <string name="perishable">Perishable</string>
+    <string name="have_ac">Have AC</string>
+    <string name="transporter_detail">Transporter Detail</string>
+    <string name="vehicle_reg">Vehicle Registration</string>
+
+
+    <string-array name="transporter_type">
+        <item>Individual</item>
+        <item>Partnership</item>
+        <item>Limited</item>
+    </string-array>
+
+    <string-array name="transportation_type">
+        <item>Local</item>
+        <item>National</item>
+        <item>Regional</item>
+        <item>Global</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>Select the State</item>
+        <item>Assam</item>
+        <item>Chhattisgarh</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal </item>
+        <item>Karnatka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Odisha</item>
+        <item>Rajasthan</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Germany</item>
+        <item>India</item>
+        <item>Malaysia</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+
+    </string-array>
+
+
+    <string-array name="permit">
+        <item>Select your category</item>
+        <item>National</item>
+        <item>International</item>
+    </string-array>
+
+    <string name="drop_location">Drop Location</string>
+    <string name="productname">Product name</string>
+    <string name="short_des">Short description</string>
+    <string name="long_des">Long description</string>
+    <string name="discount">Discount</string>
+    <string name="selling_price">Selling Price</string>
+    <string name="mrp">Price</string>
+
+
+    <!--transporter-->
+    <string name="update_status">Update status</string>
+    <string name="status_update">Daily Status Update</string>
+    <string name="start_location">Start location</string>
+    <string name="end_location">End location</string>
+    <string name="route">Route</string>
+    <string name="transport_name">Transport name</string>
+    <string name="capacity">Capacity</string>
+    <string name="availability">Availability</string>
+    <string name="charge">Charge per km</string>
+    <string name="current_order">Current order taken</string>
+    <string name="perishable_yes">Yes</string>
+    <string name="perishable_no">No</string>
+
+
+    <!--entrepreneur-->
+    <string name="delivery_deal">Delivery deal</string>
+    <string name="buyer_name">Buyer name</string>
+    <string name="product_shipping">Product shipping</string>
+    <string name="entrepreneur_id">Entrepreneur ID</string>
+    <string name="product_name_1">Product name</string>
+    <string name="quantity_4">Quantity</string>
+    <string name="pick_add">Pick up address</string>
+    <string name="drop_add">Drop address</string>
+    <string name="contact_no">Contact number</string>
+    <string name="transportation">Transportation</string>
+    <string name="estimate_delivery_time">Estimate Delivery Time</string>
+    <string name="place_order">Place Order</string>
+
+
+    <string name="estimation_delivery1" translatable="false">Delivery within 7 days</string>
+    <string name="estimation_delivery2" translatable="false">Delivery within 14 days</string>
+    <string name="paying" translatable="false">Please wait while Money is being Transferring.</string>
+    <string name="payment_done" translatable="false">Transaction Complete</string>
+    <string name="weather" translatable="false">Check Weather</string>
+    <string name="cancel_order" translatable="false">Cancel order</string>
+    <string name="Administrator" translatable="false">Administrator</string>
+    <string name="storage" translatable="false">Storage</string>
+
+    <!--Broker-->
+    <string name="broker_name" translatable="false">Broker name</string>
+    <string name="vehicle" translatable="false">Vehicle</string>
+    <string name="area_of_operation" translatable="false">Area of operation</string>
+    <string name="passport" translatable="false">Passport no for foreign export</string>
+    <string name="aadhar_broker" translatable="false">Aadhar no</string>
+    <string name="broker" translatable="false">Broker Details</string>
+    <string-array name="vehicle_b_list">
+        <item>Individual</item>
+        <item>Group</item>
+    </string-array>
+    <string-array name="area_op">
+        <item>Local</item>
+        <item>Regional</item>
+        <item>State</item>
+        <item>National</item>
+        <item>International</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>Sea-ways</item>
+        <item>Air-ways</item>
+    </string-array>
+
+
+    <string name="broker_message" translatable="false">Registered as Broker</string>
+
+
+    <!--Menu-->
+    <string name="item1" translatable="false">Medical camps</string>
+    <string name="item2" translatable="false">Eye checkups camp</string>
+    <string name="item3" translatable="false">Dental camp</string>
+    <string name="item4" translatable="false">Ambulance</string>
+    <string name="item5" translatable="false">Blood donation camp</string>
+    <!--Menu-->
+
+    <string name="pie_chart" translatable="false">Pie Chart</string>
+    <string name="column_chart" translatable="false">Column Chart</string>
+    <string name="line_chart" translatable="false">Transportation Mode</string>
+    <string name="area_chart" translatable="false">Revenue</string>
+    <string name="area3d_chart" translatable="false">Moter Vehicle</string>
+    <string name="transporter_live_status" translatable="false">Transporter Live Status</string>
+</resources>

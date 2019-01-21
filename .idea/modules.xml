@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/anychar/anychart.iml" filepath="$PROJECT_DIR$/anychar/anychart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hackathon2.iml" filepath="$PROJECT_DIR$/hackathon2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yweathergetter4a/yweathergetter4.iml" filepath="$PROJECT_DIR$/yweathergetter4a/yweathergetter4.iml" />
+    </modules>
+  </component>
+</project>
