@@ -17,9 +17,7 @@ import naveen.hackathon.hackathon.fragment.ProductListFragment;
 
 import java.util.Set;
 
-/**
- * The Class ImageLoaderTask.
- */
+
 public class ProductLoaderTask extends AsyncTask<String, Void, Void> {
 
     private Context context;

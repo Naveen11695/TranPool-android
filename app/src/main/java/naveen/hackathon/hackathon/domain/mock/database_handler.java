@@ -202,28 +202,28 @@ public class database_handler {
                         "Raw Materials",
                         "handloom industry,  and , small-scale industries, sericulture and the coir industry",
                         "10%",
-                        "http://www.delimpex.ch/images/futtermuehle/futtermuehle_rohstoff_in_hand.jpg"));
+                        "https://imgur.com/021f01W.jpg"));
 
         listOfCategory
                 .add(new ProductCategoryModel(
                         "Home Made Items",
                         "General Houseware Items,Horticultural and Gardening Ceramics,Khadi,Village Industries, Handicrafts, Table Accessories and Houseware Decorative Items",
                         "15%",
-                        "http://media.natgeotraveller.in/wp-content/uploads/2016/10/handmade-in-india.jpg"));
+                        "https://imgur.com/4cpcnEA.jpg"));
 
         listOfCategory
                 .add(new ProductCategoryModel(
                         "Food Item",
                         "Sugar, Papadum, Rice, Oats, Wheat, Frozen Fruit",
                         "5%",
-                        "https://www.laboratoriovalsusa.it/sites/default/files/Organic-Food.jpg"));
+                        "https://imgur.com/DBGkmGB.jpg"));
 
         listOfCategory
                 .add(new ProductCategoryModel(
                         "Furnitures Items",
                         "Carpets,Wooden and Bamboo Arts,Reed Curtain and Reed Products,Glass Building Materials",
                         "5%",
-                        "http://www.livspace.com/magazine/wp-content/uploads/2016/08/transitional-spaces-in-traditional-indian-style-interiors.jpg"));
+                        "https://imgur.com/pZHeBat.jpg"));
 
         CenterRepository.getCenterRepository().setListOfCategory(listOfCategory);
     }

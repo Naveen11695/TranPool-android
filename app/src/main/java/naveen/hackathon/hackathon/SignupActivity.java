@@ -22,6 +22,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 import naveen.hackathon.hackathon.Transporter.Transporter_home;
 import naveen.hackathon.hackathon.activities.ECartHomeActivity;
@@ -99,7 +100,7 @@ public class SignupActivity extends AppCompatActivity {
                         .addOnCompleteListener(SignupActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
-                                auth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                            /*    Objects.requireNonNull(auth.getCurrentUser()).sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         Log.e("Event","Verification Email is sent");
@@ -109,7 +110,7 @@ public class SignupActivity extends AppCompatActivity {
                                     public void onFailure(@NonNull Exception e) {
                                         Log.e("Event","Verification Email is not sent");
                                     }
-                                });
+                                });*/
                                 progressBar.setVisibility(View.GONE);
                                 final View v=findViewById(R.id.signin_layout);
                                 // If sign in fails, display a message to the user. If sign in succeeds

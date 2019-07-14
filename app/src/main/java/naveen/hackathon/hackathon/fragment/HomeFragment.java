@@ -85,9 +85,8 @@ public class HomeFragment extends Fragment {
             @Override
             public void onGenerated(Palette palette) {
 
-                mutedColor = palette.getMutedColor(R.color.primary_500);
-                collapsingToolbar.setContentScrimColor(mutedColor);
-                collapsingToolbar.setStatusBarScrimColor(R.color.black_trans80);
+                mutedColor = palette.getMutedColor(R.color.colorPrimaryDark);
+                collapsingToolbar.setStatusBarScrimColor(R.color.colorPrimaryDark);
             }
         });
 

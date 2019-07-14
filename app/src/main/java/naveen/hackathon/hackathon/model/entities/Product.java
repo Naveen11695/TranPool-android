@@ -1,7 +1,4 @@
 
-/**
- *
- */
 package naveen.hackathon.hackathon.model.entities;
 
 public class Product {
